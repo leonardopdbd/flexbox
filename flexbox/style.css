@@ -1,0 +1,57 @@
+footer {
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre os links */
+    align-items: center; /* Centralizar verticalmente */
+    flex-wrap: wrap; /* Tratar quebra de linha */
+}
+
+footer a {
+    flex: 1 1 20%; /* Mesmo tamanho para os links */
+    text-align: center; /* Centralizar o texto */
+    padding: 10px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui padding no cálculo da largura */
+}
+
+
+#zen-benefits {
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre texto e título */
+    align-items: center; /* Centralizar verticalmente */
+    border-top: 1px solid #ccc; /* Linha no topo */
+    border-bottom: 1px solid #ccc; /* Linha embaixo */
+    padding: 20px 0; /* Espaçamento interno */
+}
+
+#zen-benefits p {
+    flex: 0 1 70%; /* Texto ocupa 70% da largura */
+}
+
+#zen-benefits h3 {
+    flex: 0 1 30%; /* Título ocupa 30% da largura */
+    text-align: right; /* Alinhar o título à direita */
+    margin: 0; /* Remover margem padrão */
+}
+
+#zen-participation {
+    display: flex;
+    flex-wrap: wrap; /* Tratar quebra de linha */
+    border-top: 1px solid #ccc; /* Linha no topo */
+    border-bottom: 1px solid #ccc; /* Linha embaixo */
+    padding: 20px 0; /* Espaçamento interno */
+}
+
+#zen-participation p,
+#zen-participation h3 {
+    flex: 0 1 50%; /* Cada item ocupa 50% do espaço disponível */
+    box-sizing: border-box; /* Inclui padding no cálculo da largura */
+    padding: 10px; /* Espaçamento interno */
+}
+
+#zen-participation h3 {
+    text-align: center; /* Centralizar o título verticalmente */
+    margin: 0; /* Remover margem padrão */
+}
+
+#zen-participation {
+    border-top: none; /* Remover borda duplicada */
+}
